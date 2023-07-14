@@ -6,36 +6,22 @@ A simple application to display current weather of user location and 5-day weath
 
 ## Pre-requisites
 
-- Node.js 9.8.0 and above & expo
+- Node.js 12 and above & Expo-cli
 
 ## Run
 
 ```
 git clone
-cd react-weather-forecast
-npm i
-```
-
-## Start the dev server
+cd weather-app
+npm install
+npm start
 
 ```
 
-npm run start
+### Notes
 
 ```
-
-#### Notes:
-
-- Running the build bundles all your updates to `bundle.js` and `bundle.css` in dist folder.
-- If you insist to automate the build upon appending changes to files, use `webpack --watch`
-
-## Test
-
-```
-
-npm run test
-
-```
+tested on Web & on Expo Go App
 
 ### TODOs
 
@@ -47,3 +33,9 @@ npm run test
 - [ ] Display higher-level of weather information such as Wind Speed, Precipitation etc
 - [ ] Fix lint issues and config the eslintrc to support "no-vars-used" for Imports
 - [ ] Better and more functional UI
+
+```
+
+```
+
+```
